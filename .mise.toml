@@ -1,0 +1,12 @@
+[tools]
+gcloud = "latest"
+
+[env]
+KUBECONFIG = "{{ config_root }}/.kubeconfig"
+
+[tasks.gcp-auth]
+description = "Authentify gcloud + ADC one time"
+run = """
+gcloud auth login
+gcloud auth application-default login
+"""
