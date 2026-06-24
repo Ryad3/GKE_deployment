@@ -1,0 +1,7 @@
+# Partial backend configuration shared by all layers.
+# Copy to backend.hcl and adjust, then run from a layer directory:
+#   terraform init -backend-config=../backend.hcl
+#
+# The per-layer `prefix` stays hardcoded in each layer's provider.tf.
+
+bucket = "my-tfstate-bucket"

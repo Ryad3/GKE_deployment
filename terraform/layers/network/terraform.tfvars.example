@@ -1,0 +1,7 @@
+# Copy this file to `terraform.tfvars` and fill in your values.
+# `terraform.tfvars` is ignored by git (actual/sensitive values).
+
+project_id = "my-gcp-project"   # GCP project ID
+region     = "europe-west1"     # e.g. europe-west1, us-central1
+zone       = "europe-west1-b"   # a zone within the region above
+appname    = "my-app"           # name used for the VPC and subnet

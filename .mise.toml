@@ -1,5 +1,6 @@
 [tools]
 gcloud = "latest"
+terraform = "1.9"
 
 [env]
 KUBECONFIG = "{{ config_root }}/.kubeconfig"
